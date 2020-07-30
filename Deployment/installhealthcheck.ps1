@@ -1,0 +1,1 @@
+﻿Copy-Item -Path "C:\staging\index.html" -Destination "C:\inetpub\wwwroot\index.html" -Force

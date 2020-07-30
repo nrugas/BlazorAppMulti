@@ -1,0 +1,50 @@
+{
+  "manifestVersion": 1,
+  "deployments": {
+
+    "custom": [
+      {
+        "name": "law",
+        "scripts": {
+          "install": {
+            "file": "installLaw.ps1"
+          },
+          "restart": {
+            "file": "restart.ps1"
+          },
+          "uninstall": {
+            "file": "uninstallLaw.ps1"
+          }
+        }
+      },
+      {
+        "name": "kreg",
+        "scripts": {
+          "install": {
+            "file": "installKreg.ps1"
+          },
+          "restart": {
+            "file": "restart.ps1"
+          },
+          "uninstall": {
+            "file": "uninstallKreg.ps1"
+          }
+        }
+      },      
+      {
+        "name": "healthcheck",
+        "scripts": {
+          "install": {
+            "file": "installhealthcheck.ps1"
+          },
+          "restart": {
+            "file": "restart.ps1"
+          },
+          "uninstall": {
+            "file": "uninstallhealthcheck.ps1"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+﻿rm "c:\inetpub\wwwroot\index.html" -Force
